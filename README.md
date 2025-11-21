@@ -68,17 +68,25 @@ dotenv for environment variables
 **📡 API Routes**
 **🔐 Auth Routes (/auth)**
 POST /register — Register user
+
 POST /login — Login user & get JWT    
 
 **👤 User Routes (/user)**
 GET /user/find/:userId
+
 GET /user/findAll
+
 PUT /user/updateUser/:userId
+
 DELETE /user/deleteUser/:userId
 
 **📝 Blog API Routes**
 GET /blog/getAll
+
 GET /blog/find/:id
+
 POST /blog/
+
 PUT /blog/updateBlog/:id
+
 DELETE /blog/deleteBlog/:id
