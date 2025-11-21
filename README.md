@@ -67,11 +67,13 @@ dotenv for environment variables
 
 **📡 API Routes**
 **🔐 Auth Routes (/auth)**
+
 POST /register — Register user
 
 POST /login — Login user & get JWT    
 
 **👤 User Routes (/user)**
+
 GET /user/find/:userId
 
 GET /user/findAll
